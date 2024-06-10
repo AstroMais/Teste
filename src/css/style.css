@@ -1,0 +1,57 @@
+h5 {
+  color: #0d6efd;
+  text-align: center;
+}
+
+body {
+  background-color: #eee;
+  height: 110%;
+}
+
+button {
+  border: none;
+}
+
+#container {
+  display: flex;
+}
+
+#resultado {
+  text-align: center;
+}
+
+input::placeholder {
+  color: #0d6efd;
+}
+
+.valor-consumo {
+  color: blue;
+}
+
+span {
+  width: 100px;
+}
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: #0d6efd;
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0d6efd;
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+}
